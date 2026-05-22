@@ -120,7 +120,6 @@ The model predicts vehicle prices using the following features:
 - Seller Type
 - Ownership History
 - Showroom Price
---- 
 
 ---
 
