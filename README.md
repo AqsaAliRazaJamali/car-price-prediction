@@ -1,4 +1,9 @@
-# 🚗 ValuDrive - Car Price Prediction System
+# 🚗 ValuDrive | Machine Learning Car Price Predictor
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-blue?style=for-the-badge)
 
 ValuDrive is a Machine Learning based web application that predicts the resale value of cars using historical vehicle data. The project combines a trained regression model with a Flask web application to provide real-time price predictions through a clean and responsive interface.
 
@@ -30,7 +35,14 @@ The best-performing trained model is automatically saved as:
 ```bash
 car_price_model.pkl
 ```
+---
+## 🔍 How It Works
 
+1. Vehicle data is collected from the user interface.
+2. Input data is preprocessed and encoded.
+3. The trained regression model analyzes the features.
+4. The system predicts the estimated resale price instantly.
+5. Results are displayed dynamically on the web interface.
 ---
 
 ## 📂 Project Structure
@@ -78,7 +90,7 @@ car-price-prediction/
 ### 1. Clone the Repository
 
 ```bash
-git clone <https://github.com/aqsaalirazajamali/car-price-prediction>
+git clone https://github.com/aqsaalirazajamali/car-price-prediction
 cd car-price-prediction
 ```
 
@@ -121,6 +133,10 @@ The model predicts vehicle prices using the following features:
 - Ownership History
 - Showroom Price
 
+---
+## 📄 License
+
+This project is licensed under the MIT License.
 ---
 
 ## 👩‍💻 Author
